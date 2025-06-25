@@ -24,6 +24,8 @@ export default function Navbar() {
         <div className="flex gap-6">
           <NavLink to="/explore" label="Explore" />
           <NavLink to="/contribute" label="Contribute" />
+                    <NavLink to="/admin" label="Admin" />
+
         </div>
       </div>
     </motion.nav>
